@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/home/egartz/work/git/nueng'
+let g:netrw_dirhist_2='/home/egartz/work/git/nueng/src'
+let g:netrw_dirhist_3='/home/egartz/work/git/sideloader'
+let g:netrw_dirhist_4='/home/egartz/Downloads/doc'
