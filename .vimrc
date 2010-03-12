@@ -58,11 +58,8 @@ map <Leader>a <esc>:A<cr>
 map <C-F11> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 
 " for cscope (ex finding calls of function)
-map <C-F10> :!cscope -Rbq <CR>
+map <C-F10> :!cscope -Rbq . <CR>
 
-" i've seen tab map to omnicomplete at start of line in insert mode. not sure
-" if it happens under current setting. but to be sure, don't want it
-nomap <Tab>
 
 " this stuff is for minibuffer.vim, if i don't like plugin, can erase
 "let g:miniBufExplMapWindowNavVim = 1 
