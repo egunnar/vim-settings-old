@@ -1,3 +1,6 @@
+set tabstop=4
+set shiftwidth=4
+
 set incsearch
 set mouse=a
 set nocompatible
@@ -60,7 +63,7 @@ map <C-F11> :!ctags -R --c++-kinds=+p --fields=+iaS --extra=+q .<CR>
 " for cscope (ex finding calls of function)
 map <C-F10> :!cscope -Rbq . <CR>
 
-
+map <Leader>w <C-w><C-w>
 " this stuff is for minibuffer.vim, if i don't like plugin, can erase
 "let g:miniBufExplMapWindowNavVim = 1 
 "let g:miniBufExplMapWindowNavArrows = 1 
