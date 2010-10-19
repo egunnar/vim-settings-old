@@ -2,7 +2,8 @@ set tabstop=4
 set shiftwidth=4
 
 set incsearch
-set mouse=a
+" has been messing up cutting and pasting with termial
+"set mouse=a
 set nocompatible
 set nobackup
 set showcmd
