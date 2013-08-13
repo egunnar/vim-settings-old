@@ -70,3 +70,5 @@ map <Leader>w <C-w><C-w>
 "let g:miniBufExplMapWindowNavArrows = 1 
 "let g:miniBufExplMapCTabSwitchBufs = 1 
 "let g:miniBufExplModSelTarget = 1
+
+au BufEnter *.html,*.htm,*.py,*.c,*.cpp,*.rb,*.pl,*.java,*.h syntax sync fromstart
