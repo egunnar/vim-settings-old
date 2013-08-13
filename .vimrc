@@ -72,3 +72,4 @@ map <Leader>w <C-w><C-w>
 "let g:miniBufExplModSelTarget = 1
 
 au BufEnter *.html,*.htm,*.py,*.c,*.cpp,*.rb,*.pl,*.java,*.h syntax sync fromstart
+colorscheme ristolight
